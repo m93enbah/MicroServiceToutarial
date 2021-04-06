@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZQH0DW7OOrVbbSiNCQ4zIIofbH6lfgEd/RKWMgHZ5T9CMe9oLbj9zAdBDw26ufKVN1Duw1DUSXqrgV+1lnb5OQ==",
+  "dgSpecHash": "V0d94hRImpK6w+xcUGlrfqdURe1UR3ImiOvx7ainy/wSBMEqUK1GPHPq3DyTcHE3/BiA1anJPeg5FJyDa2WH5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\uis\\Frontend\\Frontend.csproj",
+  "projectFilePath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\uis\\Frontend\\Frontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

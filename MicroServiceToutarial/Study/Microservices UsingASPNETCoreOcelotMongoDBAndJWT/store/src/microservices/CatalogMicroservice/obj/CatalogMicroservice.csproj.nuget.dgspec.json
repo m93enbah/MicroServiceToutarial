@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj": {}
+    "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj": {
+    "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj",
+        "projectUniqueName": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj",
         "projectName": "CatalogMicroservice",
-        "projectPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj",
+        "projectPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj",
         "packagesPath": "C:\\Users\\m.enbeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\microservices\\CatalogMicroservice\\obj\\",
+        "outputPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\microservices\\CatalogMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj": {
-                "projectPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj"
+              "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj": {
+                "projectPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj"
               }
             }
           }
@@ -102,14 +102,14 @@
         }
       }
     },
-    "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj": {
+    "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj",
+        "projectUniqueName": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj",
         "projectName": "Middleware",
-        "projectPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj",
+        "projectPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj",
         "packagesPath": "C:\\Users\\m.enbeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\middlewares\\Middleware\\obj\\",
+        "outputPath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\middlewares\\Middleware\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

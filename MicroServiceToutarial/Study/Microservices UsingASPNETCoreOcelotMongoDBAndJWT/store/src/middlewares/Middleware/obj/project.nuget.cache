@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9hsLEXDAR+gK1XNJ7tvLLK/7HFfRBiEckBqmkZjNs6T8apg0mUYTmw3jHsYf469I917jpFfD1rzftIFbuoYcGQ==",
+  "dgSpecHash": "hL5MSu+xgNAUBa6sI0seOpbnRgnO86/TJEQ3OpTJU6xjKKqCo2v++3vOdE1Mmgp1jvvB6rrQF+X2KPkrOHRt8Q==",
   "success": false,
-  "projectFilePath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj",
+  "projectFilePath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\middlewares\\Middleware\\Middleware.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\m.enbeh\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\m.enbeh\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

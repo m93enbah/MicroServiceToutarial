@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wBE036RPI7tXZPwKr5toOmAx0D+fb9S3AN3k4O4Nq81XkR6Srzc4MCcyQ9sn5PMos1q7vRjBOSiookk1xBPNqQ==",
+  "dgSpecHash": "7Fg/oxzgdzbYxgyRiMpVngrTFAi5NSbXB7LOCljbWkVDiCGIKmce1ScE2wtJfE6xvSyEtqsIPySvTxWTGXrLKg==",
   "success": false,
-  "projectFilePath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices using ASP.NET Core, Ocelot, MongoDB and JWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj",
+  "projectFilePath": "C:\\Users\\m.enbeh\\source\\repos\\MicroServiceToutarial\\MicroServiceToutarial\\Study\\Microservices UsingASPNETCoreOcelotMongoDBAndJWT\\store\\src\\microservices\\CatalogMicroservice\\CatalogMicroservice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\m.enbeh\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\3.1.2\\aspnetcore.healthchecks.mongodb.3.1.2.nupkg.sha512",
     "C:\\Users\\m.enbeh\\.nuget\\packages\\aspnetcore.healthchecks.ui\\3.1.1\\aspnetcore.healthchecks.ui.3.1.1.nupkg.sha512",
