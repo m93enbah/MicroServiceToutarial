@@ -27,12 +27,14 @@ namespace Catalog.API.Repositories
 
         public async Task<IEnumerable<Product>> GetProductByCategory(string categoryName)
         {
+            //with using query builder
             var filter = Builders<Product>.Filter.ElemMatch(v => v.Category, categoryName);
             return await _context.Products.Find(filter).ToListAsync();
         }
 
         public async Task<IEnumerable<Product>> GetProductByName(string name)
         {
+            //with using query builder
             var filter = Builders<Product>.Filter.ElemMatch(v => v.Name, name);
             return await _context.Products.Find(filter).ToListAsync();
         }
@@ -41,6 +43,7 @@ namespace Catalog.API.Repositories
         {
             await _context.Products.InsertOneAsync(product);
         }
+
         public async Task<bool> UpdateProduct(Product product)
         {
             //if the id is exact with id on product collection replace the whole old document with new document
