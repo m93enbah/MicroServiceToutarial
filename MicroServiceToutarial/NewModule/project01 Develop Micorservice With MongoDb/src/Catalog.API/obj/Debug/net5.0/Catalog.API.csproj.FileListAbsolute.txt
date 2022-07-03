@@ -26,3 +26,13 @@ C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Introdu
 C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Introduction\src\Catalog.API\obj\Debug\net5.0\ref\Catalog.API.dll
 C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Introduction\src\Catalog.API\obj\Debug\net5.0\Catalog.API.pdb
 C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Introduction\src\Catalog.API\obj\Debug\net5.0\Catalog.API.genruntimeconfig.cache
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\Catalog.API.csproj.AssemblyReference.cache
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\Catalog.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\Catalog.API.AssemblyInfoInputs.cache
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\Catalog.API.AssemblyInfo.cs
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\Catalog.API.csproj.CoreCompileInputs.cache
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\Catalog.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\Catalog.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\Catalog.API.dll
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\ref\Catalog.API.dll
+C:\Study\MicroServiceToutarial\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\Catalog.API\obj\Debug\net5.0\Catalog.API.pdb
