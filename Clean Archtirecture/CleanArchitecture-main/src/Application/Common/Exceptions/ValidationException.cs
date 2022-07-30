@@ -2,6 +2,7 @@
 
 namespace CleanArchitecture.Application.Common.Exceptions;
 
+//this exception class called on the command / query if validation occur
 public class ValidationException : Exception
 {
     public ValidationException()

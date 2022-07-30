@@ -4,6 +4,7 @@ using ValidationException = CleanArchitecture.Application.Common.Exceptions.Vali
 
 namespace CleanArchitecture.Application.Common.Behaviours;
 
+//this behaviour if any operation occur on Command that that validator attach to like CreateTodoItemCommandValidator that attach to CreateTodoItemCommand
 public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
      where TRequest : notnull
 {
@@ -16,6 +17,7 @@ public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TReque
 
     public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
     {
+        //this call the fluent validation which execute the valiation rules for the Command class attach to ,if validation occur it create new instance called ValidationException
         if (_validators.Any())
         {
             var context = new ValidationContext<TRequest>(request);

@@ -1,5 +1,6 @@
 ﻿namespace CleanArchitecture.Application.Common.Exceptions;
 
+//this exception class called on the command / query if not found
 public class NotFoundException : Exception
 {
     public NotFoundException()

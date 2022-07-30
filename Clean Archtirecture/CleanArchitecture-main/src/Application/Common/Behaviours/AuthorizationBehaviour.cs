@@ -6,6 +6,7 @@ using MediatR;
 
 namespace CleanArchitecture.Application.Common.Behaviours;
 
+//this behaviour is used to authorized the mediator requst if its authorized or not
 public class AuthorizationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : notnull
 {
     private readonly ICurrentUserService _currentUserService;
