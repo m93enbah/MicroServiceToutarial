@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sZ1oJQqk5HtezB8kR4k2jOJwglugQAD03uj2qWZHbDW8Eiv3kOBHX6pHtWqS60GiVkG5BohVH55RRH33LDjspw==",
+  "dgSpecHash": "KSpwGw5mIuZ/DqYgqO3DUvSIT7V4S7HtrbqTyn3cAEUMiATrrrc6TCh9FmdBVecDC3KYAg5lFrJ4ZxTkEIYSMg==",
   "success": true,
   "projectFilePath": "C:\\Study\\MicroServiceToutarial\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\M.Enbeh.ext\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\M.Enbeh.ext\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\M.Enbeh.ext\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\M.Enbeh.ext\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\M.Enbeh.ext\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\M.Enbeh.ext\\.nuget\\packages\\mongodb.bson\\2.16.1\\mongodb.bson.2.16.1.nupkg.sha512",
     "C:\\Users\\M.Enbeh.ext\\.nuget\\packages\\mongodb.driver\\2.16.1\\mongodb.driver.2.16.1.nupkg.sha512",

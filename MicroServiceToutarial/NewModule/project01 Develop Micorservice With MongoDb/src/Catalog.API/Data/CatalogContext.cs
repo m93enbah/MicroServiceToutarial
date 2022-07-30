@@ -17,7 +17,7 @@ namespace Catalog.API.Data
 
 
 
-            CatalogContext.SeedData(Products);
+            CatalogContextSeed.SeedData(Products);
         }
         public IMongoCollection<Product> Products { get; }
     }
