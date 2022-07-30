@@ -5,6 +5,7 @@ using MediatR;
 
 namespace Microsoft.Extensions.DependencyInjection;
 
+//with this we inject all the services like autoMapper , mediator , etc..
 public static class ConfigureServices
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)

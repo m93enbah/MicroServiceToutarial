@@ -1,5 +1,6 @@
 ﻿namespace CleanArchitecture.Domain.Common;
 
+//this is the base class that entities inherit from
 public abstract class BaseAuditableEntity : BaseEntity
 {
     public DateTime Created { get; set; }

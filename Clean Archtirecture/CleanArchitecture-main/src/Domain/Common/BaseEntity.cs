@@ -2,6 +2,8 @@
 
 namespace CleanArchitecture.Domain.Common;
 
+//with BaseEntity its include the BaseEvent which is called the target service that under folder Events (TodoItemCompletedEvent,TodoItemCreatedEvent,TodoItemDeletedEvent)
+//based on Properety Change on Child Entity called TodoItem public bool Done
 public abstract class BaseEntity
 {
     public int Id { get; set; }
