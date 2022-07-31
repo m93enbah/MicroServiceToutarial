@@ -12,6 +12,7 @@ public record CreateTodoItemCommand : IRequest<int>
     public string? Title { get; init; }
 }
 
+//we define Command that accept request CreateTodoItemCommand and return response of int
 public class CreateTodoItemCommandHandler : IRequestHandler<CreateTodoItemCommand, int>
 {
     private readonly IApplicationDbContext _context;
@@ -30,12 +31,12 @@ public class CreateTodoItemCommandHandler : IRequestHandler<CreateTodoItemComman
             Done = false
         };
 
+
+        //the CreateTodoItemCommand Command will Call the TodoItemCreatedEventHandler that inherhit from INotificationHandler that accept TodoItemCreatedEvent 
         entity.AddDomainEvent(new TodoItemCreatedEvent(entity));
 
         _context.TodoItems.Add(entity);
-
         await _context.SaveChangesAsync(cancellationToken);
-
         return entity.Id;
     }
 }

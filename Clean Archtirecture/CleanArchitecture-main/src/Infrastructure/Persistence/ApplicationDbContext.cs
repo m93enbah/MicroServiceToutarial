@@ -40,14 +40,14 @@ public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+        //it register interceptor that is responsible for preapre default values
         optionsBuilder.AddInterceptors(_auditableEntitySaveChangesInterceptor);
     }
 
     public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
     {
-        //any domain events added by mediator BaseEvent will call the DispatchDomainEvents which set the CreatedBy , CreatedDate , etc...
+        //any event handle register like TodoItemCompletedEventHandler , TodoItemCreatedEventHandler will consume and called it
         await _mediator.DispatchDomainEvents(this);
-
         return await base.SaveChangesAsync(cancellationToken);
     }
 }

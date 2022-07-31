@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.Infrastructure.Identity;
 
+//Microsoft.Extensions.Identity.Core
+// this services is used by Applciation layer that hold the interface called 
 public class IdentityService : IIdentityService
 {
     private readonly UserManager<ApplicationUser> _userManager;

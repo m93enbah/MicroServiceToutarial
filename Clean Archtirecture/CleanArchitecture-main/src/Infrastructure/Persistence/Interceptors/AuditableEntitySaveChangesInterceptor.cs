@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace CleanArchitecture.Infrastructure.Persistence.Interceptors;
 
+//this interceptor will call when call SaveChanges which is used to prepare default values for CreatedBy , CreatedDate , UpdatedBy , UpdatedDate
 public class AuditableEntitySaveChangesInterceptor : SaveChangesInterceptor
 {
     private readonly ICurrentUserService _currentUserService;

@@ -5,8 +5,7 @@ namespace CleanArchitecture.Application.Common.Mappings;
 
 
 //with the class of MappingProfile that belong to AutoMapper it will get all the types
-//that inherit from the IMapFrom<Target Entity> and mapping to target Entity by using 
-//    .ProjectTo<TodoItemBriefDto>(_mapper.ConfigurationProvider)
+//that inherit from the IMapFrom<Target Entity> like ToDoItemBriefDto 
 public class MappingProfile : Profile
 {
     public MappingProfile()

@@ -5,6 +5,7 @@ using ValidationException = CleanArchitecture.Application.Common.Exceptions.Vali
 namespace CleanArchitecture.Application.Common.Behaviours;
 
 //this behaviour if any operation occur on Command that that validator attach to like CreateTodoItemCommandValidator that attach to CreateTodoItemCommand
+//we are using fluent Validation for each command class and hit when this command make saveChagnes 
 public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
      where TRequest : notnull
 {

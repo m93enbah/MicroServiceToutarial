@@ -6,6 +6,8 @@ using MediatR;
 
 namespace CleanArchitecture.Application.TodoItems.Commands.DeleteTodoItem;
 
+
+//we define Command that accept request DeleteTodoItemCommand 
 public record DeleteTodoItemCommand(int Id) : IRequest;
 
 public class DeleteTodoItemCommandHandler : IRequestHandler<DeleteTodoItemCommand>

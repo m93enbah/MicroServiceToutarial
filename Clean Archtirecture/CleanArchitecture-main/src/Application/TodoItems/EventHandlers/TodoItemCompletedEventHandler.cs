@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace CleanArchitecture.Application.TodoItems.EventHandlers;
 
+//this handler that inherit from INotificationHandler accept TodoItemCreatedEvent that contains TodoItem instnace and we can send email notificaiton
 public class TodoItemCompletedEventHandler : INotificationHandler<TodoItemCompletedEvent>
 {
     private readonly ILogger<TodoItemCompletedEventHandler> _logger;
