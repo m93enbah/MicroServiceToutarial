@@ -2,6 +2,7 @@
 
 namespace CleanArchitecture.Application.Common.Models;
 
+//this class is used by the MappingExtensions that call the PaginatedList
 public class PaginatedList<T>
 {
     public List<T> Items { get; }

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CleanArchitecture.Infrastructure.Persistence.Configurations;
 
+//this is class configuraiton for entities 
 public class TodoListConfiguration : IEntityTypeConfiguration<TodoList>
 {
     public void Configure(EntityTypeBuilder<TodoList> builder)

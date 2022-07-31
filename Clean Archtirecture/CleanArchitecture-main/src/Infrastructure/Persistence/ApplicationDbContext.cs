@@ -45,6 +45,7 @@ public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, 
 
     public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
     {
+        //any domain events added by mediator BaseEvent will call the DispatchDomainEvents which set the CreatedBy , CreatedDate , etc...
         await _mediator.DispatchDomainEvents(this);
 
         return await base.SaveChangesAsync(cancellationToken);
