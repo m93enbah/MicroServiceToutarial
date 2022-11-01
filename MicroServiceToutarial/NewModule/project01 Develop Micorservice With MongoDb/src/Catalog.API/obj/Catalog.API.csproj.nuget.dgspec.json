@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Study\\MicroServiceToutarial\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj": {}
+    "C:\\Study\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "C:\\Study\\MicroServiceToutarial\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj": {
+    "C:\\Study\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Study\\MicroServiceToutarial\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "C:\\Study\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "C:\\Study\\MicroServiceToutarial\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj",
-        "packagesPath": "C:\\Users\\M.Enbeh.ext\\.nuget\\packages\\",
-        "outputPath": "C:\\Study\\MicroServiceToutarial\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\obj\\",
+        "projectPath": "C:\\Study\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj",
+        "packagesPath": "C:\\Users\\m.enbeh\\.nuget\\packages\\",
+        "outputPath": "C:\\Study\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M.Enbeh.ext\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.enbeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\M.Enbeh.ext\\.nuget\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
