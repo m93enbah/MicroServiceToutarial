@@ -1,0 +1,11 @@
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
+docker ps
+
+docker start 3fe
+
+docker stop 3fe
+
+docker rm 3fe
+
+

@@ -2,6 +2,9 @@ version: '3.4'
 
 services:
 
+  mongoclient:
+    image: mongoclient/mongoclient
+
   catalogdb:
     image: mongo
 

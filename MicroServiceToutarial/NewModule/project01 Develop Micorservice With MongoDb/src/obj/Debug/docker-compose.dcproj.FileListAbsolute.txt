@@ -1,0 +1,2 @@
+C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\bin\Debug\Catalog.API.dll
+C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
