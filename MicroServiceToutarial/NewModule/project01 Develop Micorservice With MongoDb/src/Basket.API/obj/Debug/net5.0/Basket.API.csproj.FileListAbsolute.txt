@@ -1,0 +1,7 @@
+C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\Basket.API\obj\Debug\net5.0\Basket.API.csproj.AssemblyReference.cache
+C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\Basket.API\obj\Debug\net5.0\Basket.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\Basket.API\obj\Debug\net5.0\Basket.API.AssemblyInfoInputs.cache
+C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\Basket.API\obj\Debug\net5.0\Basket.API.AssemblyInfo.cs
+C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\Basket.API\obj\Debug\net5.0\Basket.API.csproj.CoreCompileInputs.cache
+C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\Basket.API\obj\Debug\net5.0\Basket.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\Basket.API\obj\Debug\net5.0\Basket.API.MvcApplicationPartsAssemblyInfo.cache

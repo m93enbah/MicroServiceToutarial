@@ -1,13 +1,11 @@
 version: '3.4'
 
 services:
-
-  mongoclient:
-    image: mongoclient/mongoclient
-
-  catalogdb:
-    image: mongo
-
+  basket.api:
+    image: ${DOCKER_REGISTRY-}basketapi
+    build:
+      context: .
+      dockerfile: Basket.API/Dockerfile
 
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
@@ -15,5 +13,3 @@ services:
       context: .
       dockerfile: Catalog.API/Dockerfile
 
-volumes:
-   mongo_data:

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3drR81YE0GvFj6TopK/RkXot22bZrT6+0L8u33h5T00OKE5DWtXFRTIZy12U0U9cYX50PWHnBNprL+Ono0+azA==",
+  "dgSpecHash": "iWe0uRIAS/FPtgQMrS/JVObSJbYWoEk6OCNxqK3EMdTFQ6VFmYaQ+TTwMpNMvrK5R2fnjdgsaDBU8vOhr2gEQQ==",
   "success": true,
   "projectFilePath": "C:\\Study\\MicroServiceToutarial\\NewModule\\project01 Develop Micorservice With MongoDb\\src\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
