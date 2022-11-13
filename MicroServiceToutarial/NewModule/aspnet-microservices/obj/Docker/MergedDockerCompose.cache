@@ -3,7 +3,7 @@ services:
   basket.api:
     build:
       context: C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices
-      dockerfile: Services/Basket/Basket.API/Dockerfile
+      dockerfile: Services/Basket.API/Dockerfile
     container_name: basket.api
     depends_on:
       basketdb:
@@ -17,7 +17,7 @@ services:
     ports:
     - mode: ingress
       target: 80
-      published: "8001"
+      published: "8002"
       protocol: tcp
   basketdb:
     container_name: basketdb
@@ -33,7 +33,7 @@ services:
   catalog.api:
     build:
       context: C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices
-      dockerfile: Services/Catalog/Catalog.API/Dockerfile
+      dockerfile: Services/Catalog.API/Dockerfile
     container_name: catalog.api
     depends_on:
       catalogdb:
@@ -47,7 +47,7 @@ services:
     ports:
     - mode: ingress
       target: 80
-      published: "8000"
+      published: "8001"
       protocol: tcp
   catalogdb:
     container_name: catalogdb
@@ -65,9 +65,36 @@ services:
       source: mongo_data
       target: /data/db
       volume: {}
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8000
+      published: "8000"
+      protocol: tcp
+    - mode: ingress
+      target: 9000
+      published: "9000"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /var/run/docker.sock
+      target: /var/run/docker.sock
+      bind:
+        create_host_path: true
+    - type: volume
+      source: portainer_data
+      target: /data portainer/portainer-ce
+      volume: {}
 networks:
   default:
     name: dockercompose1045795868437235179_default
 volumes:
   mongo_data:
     name: dockercompose1045795868437235179_mongo_data
+  portainer_data:
+    name: dockercompose1045795868437235179_portainer_data

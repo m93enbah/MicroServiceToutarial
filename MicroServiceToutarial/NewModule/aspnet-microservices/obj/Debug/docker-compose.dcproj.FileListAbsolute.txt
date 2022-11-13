@@ -1,4 +1,6 @@
 C:\Study\MicroServiceToutarial\NewModule\project01 Develop Micorservice With MongoDb\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Basket.API.dll
+C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Catalog.API.dll
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Basket.API.deps.json
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Basket.API.runtimeconfig.json
@@ -8,8 +10,6 @@ C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Basket.A
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Catalog.API.deps.json
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Catalog.API.runtimeconfig.json
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Catalog.API.exe
-C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Basket.API.dll
-C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Catalog.API.dll
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
