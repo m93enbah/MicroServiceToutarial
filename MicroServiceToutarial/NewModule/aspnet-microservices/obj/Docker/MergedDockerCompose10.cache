@@ -66,9 +66,44 @@ services:
       target: /data/db
       volume: {}
   discountdb:
+    container_name: discountdb
+    environment:
+      POSTGRES_DB: DiscountDb
+      POSTGRES_PASSWORD: Mohammed1993$$
+      POSTGRES_USER: mohadmmedenbah93@gmail.com
     image: postgres
     networks:
       default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: postgres_data
+      target: /var/lib?postgressql/data
+      volume: {}
+  pgadmin:
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: mohadmmedenbah93@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: Mohammed1993$$
+      POSTGRES_DB: DiscountDb
+    image: dpage/pgadmin4
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5050"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: pgadmin_data
+      target: /root/.pgadmin
+      volume: {}
   portainer:
     container_name: portainer
     image: portainer/portainer-ce:latest
@@ -100,5 +135,9 @@ networks:
 volumes:
   mongo_data:
     name: dockercompose1045795868437235179_mongo_data
+  pgadmin_data:
+    name: dockercompose1045795868437235179_pgadmin_data
   portainer_data:
     name: dockercompose1045795868437235179_portainer_data
+  postgres_data:
+    name: dockercompose1045795868437235179_postgres_data

@@ -66,9 +66,20 @@ services:
       target: /data/db
       volume: {}
   discountdb:
+    container_name: basketdb
+    environment:
+      POSTGRES_DB: DiscountDb
+      POSTGRES_PASSWORD: admin1234
+      POSTGRES_USER: admin
     image: postgres
     networks:
       default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    restart: always
   portainer:
     container_name: portainer
     image: portainer/portainer-ce:latest
