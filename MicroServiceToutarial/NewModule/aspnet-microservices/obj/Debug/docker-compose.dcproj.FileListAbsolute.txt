@@ -29,3 +29,10 @@ C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Basket.A
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Catalog.API.pdb
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Discount.API.deps.json
+C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Discount.API.runtimeconfig.json
+C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Discount.API.exe
+C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Discount.API.dll
+C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Npgsql.dll
+C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Dapper.dll
+C:\Study\MicroServiceToutarial\NewModule\aspnet-microservices\bin\Debug\Discount.API.pdb
